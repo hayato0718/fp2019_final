@@ -1,7 +1,30 @@
 
 伊東さんの学びを記録する。
 
-history | grep をlinnux でたたく
+history | grep をlinux でたたく
 ssh i1920003@sol.edu.cc.uec.ac.jpでログイン
 パスワードを正確に入力
 学内ネットワークにアクセスできたー！！
+
+
+#include <stdio.h>
+int main()
+{
+  int a, b, c;
+  a = 1;
+  b = 2;
+  c = 3;
+  char s[101];
+  s = 'test';
+  // 整数の入力
+  // scanf("%d", &a);
+  // スペース区切り、整数の入力
+  // scanf("%d %d", &b, &c);
+  // 文字列の入力
+  // scanf("%s", s);
+  //出力
+  printf("%d %s\n", a + b + c, s);
+  return 0;
+}
+
+scanfはコメントアウトしないと実際に動かして確認できない。
